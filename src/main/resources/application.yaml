@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/db_game"
+    username: "root"
+    password: "root"
+  security:
+    user:
+      name: "hina"
+      password: "hina"
+  jpa:
+    show-sql: true
