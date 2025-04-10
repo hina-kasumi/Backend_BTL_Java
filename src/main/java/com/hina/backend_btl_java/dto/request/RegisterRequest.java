@@ -11,4 +11,5 @@ import lombok.experimental.FieldDefaults;
 public class RegisterRequest {
     String username;
     String password;
+    int coin;
 }
